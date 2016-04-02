@@ -1,4 +1,4 @@
 
 # Tobe Algorithm Manual
 
-* [001 快速排序](./001.md)
+* [开始学习](./001快速排序.md)
