@@ -35,7 +35,11 @@ class BreathFirstSearchGame(object):
 
     self.travel_and_update_variables()
 
+    # 0 1 2 7
     self.travel_desination_path(self.destination_node)
+
+    # [0, 0, 1, 0, 3, 1, 3, 2]
+    # print(self.best_parent_node_array)
 
   def initialize_internal_variables(self):
     # Update the graph with edges
